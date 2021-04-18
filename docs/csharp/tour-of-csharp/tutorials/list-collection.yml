@@ -92,7 +92,7 @@ items:
     ```
 
 
-    不得访问超出列表末尾的项。 可以使用 <xref:System.Collections.Generic.List%601.Count%2A> 属性确定列表长度。 添加以下代码，试运行看看：
+    在我们读取列表当中的项时，不得访问超出列表末尾的项。为了解决这个问题我们可以使用 <xref:System.Collections.Generic.List%601.Count%2A> 属性确定列表长度。 添加以下代码，试运行看看：
 
 
     ```csharp
